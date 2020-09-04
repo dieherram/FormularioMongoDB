@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title><%= title %></title>
+<link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+<h1><%= title %></h1>
+<p>Bienvenido a <%= title %></p>
+<!-- formulario -->
+<form class="form-register" method="POST" action="users">
+  <div>
+      <input type="text" id="name" name="name" placeholder="Nombre" class="inputcss">
+      <input type="text" id="lastname" name="lastname" placeholder="Apellidos" class="inputcss">
+      <input type="email" id="email" name="email" placeholder="Correo" class="inputcss">
+      <input type="password" id="password" name="password" placeholder="Contraseña" class="inputcss">
+      <input type="submit" class="btn-enviar">
+  </div>
+</form>
+<!-- formulario -->
+</body>
+</html>
